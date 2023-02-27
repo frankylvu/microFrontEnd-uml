@@ -1,0 +1,15 @@
+@startuml 微前端加载时序
+
+(*) --> "主应用html"
+--> "主应用js"
+--> "kconf mget接口"
+--> "子应用txt"
+--> "子应用js"
+if "子应用内是否有懒加载资源？" then
+-->[true] "子应用js内部的分包"
+--> (*)
+else
+-->[false] (*)
+
+
+@enduml

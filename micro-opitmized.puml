@@ -1,0 +1,86 @@
+@startuml 微前端加载时序
+!pragma teoz true
+
+database 浏览器缓存 as browserCache
+actor 用户浏览器 as browser
+actor 开发者浏览器 as depBrowser
+participant cdn
+participant flash
+database redis
+
+group #LightGreen 上线时的额外过程
+  depBrowser -> flash: 点击上线按钮
+  flash -> kconf: 扫描txt文件，获取此txt内依赖的js资\n源，更新mget接口静态配置，在当前\n子应用资源处增加scripts标识
+  activate kconf
+  kconf --> flash: 更新完成
+  deactivate kconf
+  flash -> redis: 将mget配置保存在redis中
+  activate redis
+  redis --> flash: 保存成功
+  deactivate redis
+  flash --> depBrowser: 上线成功
+end
+
+browser -> flash: 请求主应用html
+activate flash
+flash -> redis: 获取对应html资源、mget资源信息
+activate redis
+redis --> flash: 返回对应html资源、mget资源信息
+deactivate redis
+group #LightGreen 依赖注入过程
+  flash -> flash: 以script标签形式把mget接口\n内容注入依赖信息到html
+end
+flash --> browser: 返回对应的主应用html资源
+activate browser #OrangeRed
+deactivate flash
+browser -> browser: 解析html文件
+group #LightGreen 根据用户路由匹配对应的子应用js资源
+  browser -> cdn: 根据html上的js文件向cdn请求主应用js资源
+  activate cdn
+  browser -> cdn: 使用link标签的res="preload"能力\n根据插入的mget scripts标签以及当前\n路由匹配当前页面激活的子应用所需的js资源
+  cdn --> browser: 返回对应的js资源
+  deactivate cdn
+  browser -> browserCache: 将子应用的js资源\n放入浏览器缓存中
+end
+browser -> browser: 解析对应的js资源，加载主应用
+
+alt #LightGreen 在缓存内获取子应用信息成功 
+  browser -> browserCache: 获取子应用资源
+  activate browserCache
+  browserCache --> browser: 返回子应用资源
+  deactivate browserCache
+else #White 在缓存内获取子应用信息失败（容错处理）
+  browser ->x browserCache: 获取子应用资源
+  browser -> kconf: 解析主应用s过程中中获取该主应用对应的子应用(txt)cdn资源地址
+  activate kconf
+  kconf --> browser: 返回该主应用对应的子应用(txt)cdn资源地址
+  deactivate kconf
+  browser -> browser: 解析对应子应用txt，挂载子应用dom
+  {start} browser -> cdn: 根据浏览器路由请求对应子应用的js资源
+  activate cdn
+  cdn --> browser: 返回txt资源
+  deactivate cdn
+  browser -> browser: 解析对应子应用txt，挂载子应用dom
+  browser -> cdn: 请求子应用txt上对应的js资源
+  activate cdn
+  {end} cdn --> browser: 返回对应资源
+  deactivate cdn
+  {start} <-> {end} : 网络rt耗时
+end
+
+browser -> browser: 渲染子应用
+deactivate browser
+
+group 如果子应用中有懒加载路由
+  {start2} browser -> cdn: 请求懒加载分包路由下的js资源
+  activate browser #OrangeRed
+  activate cdn
+  {end2} cdn --> browser: 返回对应资源
+  {start2} <-> {end2} : 网络rt耗时
+  deactivate cdn
+  browser -> browser: 解析js资源,继续渲染子应用下的懒加载页面
+  deactivate browser
+end
+
+
+@enduml

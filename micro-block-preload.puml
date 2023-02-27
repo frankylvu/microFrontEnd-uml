@@ -1,0 +1,22 @@
+@startuml 微前端加载时序
+
+(*) --> "主应用html"
+--> "主应用js"
+--> "kconf mget接口"
+--> ===B1===
+
+partition 传统预加载 #LightGreen {
+  ===B1=== --> if "线程是否空闲?" then
+  -->[true] "次屏js资源加载"
+}
+
+===B1=== --> [首屏资源加载] "子应用txt"
+--> "子应用js"
+if "子应用内是否有懒加载资源？" then
+-->[true] "子应用js内部的分包"
+--> (*)
+else
+-->[false] (*)
+
+
+@enduml

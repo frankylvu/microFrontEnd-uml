@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="413px" preserveAspectRatio="none" style="width:784px;height:413px;background:#FFFFFF;" version="1.1" viewBox="0 0 784 413" width="784px" zoomAndPan="magnify"><defs/><g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><g id="elem_A"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="642" y="7"/><image height="16" width="16" x="672.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVR4XmNgwA3+IWGSwb///7f+h2EQH10BPoCimRxDBt4AEKAoDGCAoliAAbI0I9uMjkkGZGlCBgNrAMV+h2kk2RBsGrCJYQX4FGKVAwAsAHdHiTIgRwAAAABJRU5ErkJggg==" y="17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="652" y="45.5352">达人视角</text></g><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
+entity B--><g id="elem_B"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="489" y="7"/><image height="16" width="16" x="526.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVR4XmNgwA3+IWGSwb///7f+h2EQH10BPoCimRxDBt4AEKAoDGCAoliAAbI0I9uMjkkGZGlCBgNrAMV+h2kk2RBsGrCJYQX4FGKVAwAsAHdHiTIgRwAAAABJRU5ErkJggg==" y="17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="499" y="45.5352">授权号视角</text></g><!--MD5=[16fab723be418f7eaf2ea4bd895a8e51]
+entity C--><g id="elem_C"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="322" y="7"/><image height="16" width="16" x="366.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVR4XmNgwA3+IWGSwb///7f+h2EQH10BPoCimRxDBt4AEKAoDGCAoliAAbI0I9uMjkkGZGlCBgNrAMV+h2kk2RBsGrCJYQX4FGKVAwAsAHdHiTIgRwAAAABJRU5ErkJggg==" y="17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="332" y="45.5352">多号商家视角</text></g><!--MD5=[118f42602524ad482f02b27ef22fc383]
+entity D--><g id="elem_D"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="155" y="7"/><image height="16" width="16" x="199.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVR4XmNgwA3+IWGSwb///7f+h2EQH10BPoCimRxDBt4AEKAoDGCAoliAAbI0I9uMjkkGZGlCBgNrAMV+h2kk2RBsGrCJYQX4FGKVAwAsAHdHiTIgRwAAAABJRU5ErkJggg==" y="17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="165" y="45.5352">单号商家视角</text></g><!--MD5=[8335abc75fd0625246f531945d8c0471]
+entity CI--><g id="elem_CI"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="628" y="118"/><image height="16" width="16" x="672.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVR4XmNgGCzgH5kYDv79/7/1PzaMS476BuDD6JqxGoCugBAeNWBQGkAmHgQAANC/0szN34GlAAAAAElFTkSuQmCC" y="128"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="638" y="156.5352">达人页面模版</text></g><!--MD5=[13e88d8e4422c8d855b54f0d2bc171be]
+entity NAS--><g id="elem_NAS"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="475" y="118"/><image height="16" width="16" x="526.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVR4XmNgGCzgH5kYDv79/7/1PzaMS476BuDD6JqxGoCugBAeNWBQGkAmHgQAANC/0szN34GlAAAAAElFTkSuQmCC" y="128"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="485" y="156.5352">授权号页面模版</text></g><!--MD5=[9c35c66068622dad62ecac52c54c307b]
+entity V--><g id="elem_V"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="308" y="118"/><image height="16" width="16" x="366.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVR4XmNgGCzgH5kYDv79/7/1PzaMS476BuDD6JqxGoCugBAeNWBQGkAmHgQAANC/0szN34GlAAAAAElFTkSuQmCC" y="128"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="318" y="156.5352">多号商家页面模版</text></g><!--MD5=[225a11a356cb2db3802a7b30c3a51941]
+entity I--><g id="elem_I"><rect fill="#FFFFCC" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="141" y="118"/><image height="16" width="16" x="199.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVR4XmNgGCzgH5kYDv79/7/1PzaMS476BuDD6JqxGoCugBAeNWBQGkAmHgQAANC/0szN34GlAAAAAElFTkSuQmCC" y="128"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="151" y="156.5352">单号商家页面模版</text></g><!--MD5=[621cf6a1af6543e09709f4082df4a7a8]
+entity scanning--><g id="elem_scanning"><rect fill="#C2F0FF" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="665" y="229"/><image height="16" width="16" x="688.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR4XtWNQQoAIAzD9v//+D0nHgajGvUiaCGX0WZml1IPwdTi7it6ZxgROkaBlqKoNxQQOiZBznS0EwyfAx2jQEtR1BsKCB2TIGc6+kxwyANpzYhrKPLnjFMAAAAASUVORK5CYII=" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="675" y="267.5352">单选框</text></g><!--MD5=[edaeb0988c2cdecb0b567f793c50fa7c]
+entity customerAdministration--><g id="elem_customerAdministration"><rect fill="#C2F0FF" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="170" y="229"/><image height="16" width="16" x="193.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR4XtWNQQoAIAzD9v//+D0nHgajGvUiaCGX0WZml1IPwdTi7it6ZxgROkaBlqKoNxQQOiZBznS0EwyfAx2jQEtR1BsKCB2TIGc6+kxwyANpzYhrKPLnjFMAAAAASUVORK5CYII=" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="180" y="267.5352">下拉框</text></g><!--MD5=[09b9482de9a7688608e1bd31497bef3b]
+entity claimsAdministration--><g id="elem_claimsAdministration"><rect fill="#C2F0FF" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="267" y="229"/><image height="16" width="16" x="297.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR4XtWNQQoAIAzD9v//+D0nHgajGvUiaCGX0WZml1IPwdTi7it6ZxgROkaBlqKoNxQQOiZBznS0EwyfAx2jQEtR1BsKCB2TIGc6+kxwyANpzYhrKPLnjFMAAAAASUVORK5CYII=" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="277" y="267.5352">数据卡片</text></g><!--MD5=[4888f9aa0507bb34776328e94b8c81d1]
+entity trend--><g id="elem_trend"><rect fill="#C2F0FF" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="505" y="229"/><image height="16" width="16" x="528.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR4XtWNQQoAIAzD9v//+D0nHgajGvUiaCGX0WZml1IPwdTi7it6ZxgROkaBlqKoNxQQOiZBznS0EwyfAx2jQEtR1BsKCB2TIGc6+kxwyANpzYhrKPLnjFMAAAAASUVORK5CYII=" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="515" y="267.5352">趋势图</text></g><!--MD5=[1a64d5e1b81a9db6a091bc8feda75873]
+entity dateFilter--><g id="elem_dateFilter"><rect fill="#C2F0FF" height="51.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="380" y="229"/><image height="16" width="16" x="417.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR4XtWNQQoAIAzD9v//+D0nHgajGvUiaCGX0WZml1IPwdTi7it6ZxgROkaBlqKoNxQQOiZBznS0EwyfAx2jQEtR1BsKCB2TIGc6+kxwyANpzYhrKPLnjFMAAAAASUVORK5CYII=" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="390" y="267.5352">时间选择器</text></g><!--MD5=[765522d02420a6f826548b3dddd5143a]
+entity DMS--><g id="elem_DMS"><rect fill="#C2F0FF" height="67.9766" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="146" y="340"/><image height="16" width="16" x="176.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVR4XmNgGAXI4B+JGAX82/r//39SMLIhJGtGN2QYGECWIcia4YaQiEcBFAAA3exLaNqtLeYAAAAASUVORK5CYII=" y="350"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="156" y="378.5352">交易数据</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="156" y="395.0234">概览服务</text></g><!--MD5=[0af0fce370e22610bf6d5dc031737715]
+entity DMA--><g id="elem_DMA"><rect fill="#C2F0FF" height="67.9766" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="257" y="340"/><image height="16" width="16" x="294.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVR4XmNgGAXI4B+JGAX82/r//39SMLIhJGtGN2QYGECWIcia4YaQiEcBFAAA3exLaNqtLeYAAAAASUVORK5CYII=" y="350"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="267" y="378.5352">交易数据</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="267" y="395.0234">转化率服务</text></g><!--MD5=[ff8ff1b9124d8226c243bd0d10adfb7e]
+entity CRM--><g id="elem_CRM"><rect fill="#C2F0FF" height="51.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="7" y="348.5"/><image height="16" width="16" x="51.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVR4XmNgGAXI4B+JGAX82/r//39SMLIhJGtGN2QYGECWIcia4YaQiEcBFAAA3exLaNqtLeYAAAAASUVORK5CYII=" y="358.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="17" y="387.0352">授权关系服务</text></g><!--MD5=[fe5ec3176a52e6053833593eb2aecf0a]
+entity HAPA--><g id="elem_HAPA"><rect fill="#C2F0FF" height="67.9766" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="382" y="340"/><image height="16" width="16" x="419.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVR4XmNgGAXI4B+JGAX82/r//39SMLIhJGtGN2QYGECWIcia4YaQiEcBFAAA3exLaNqtLeYAAAAASUVORK5CYII=" y="350"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="392" y="378.5352">离线数据产</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="392" y="395.0234">出延时关系</text></g><!--MD5=[0b131232907338379908229d7835f596]
+entity HAPB--><g id="elem_HAPB"><rect fill="#C2F0FF" height="51.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="646" y="348.5"/><image height="16" width="16" x="704.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVR4XmNgGAXI4B+JGAX82/r//39SMLIhJGtGN2QYGECWIcia4YaQiEcBFAAA3exLaNqtLeYAAAAASUVORK5CYII=" y="358.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="656" y="387.0352">数据类型配置服务</text></g><!--MD5=[724085995ead44be612df75085abf928]
+entity HFPA--><g id="elem_HFPA"><rect fill="#C2F0FF" height="51.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="507" y="348.5"/><image height="16" width="16" x="551.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVR4XmNgGAXI4B+JGAX82/r//39SMLIhJGtGN2QYGECWIcia4YaQiEcBFAAA3exLaNqtLeYAAAAASUVORK5CYII=" y="358.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="517" y="387.0352">数据趋势服务</text></g><!--MD5=[ccc825f6455e149b5913d8f114af8a5f]
+link A to CI--><g id="link_A_CI"><path d="M680,64.74 C680,79.37 680,96.75 680,111.36 " fill="none" id="A-CI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="680,116.35,684,107.35,680,111.35,676,107.35,680,116.35" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="680,59.75,676,68.75,680,64.75,684,68.75,680,59.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e2f9d77aac276fc4ade8bcf0baa2659e]
+link B to NAS--><g id="link_B_NAS"><path d="M534,64.74 C534,79.37 534,96.75 534,111.36 " fill="none" id="B-NAS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="534,116.35,538,107.35,534,111.35,530,107.35,534,116.35" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="534,59.75,530,68.75,534,64.75,538,68.75,534,59.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[05f2fcfbc16bd49579918a0f25ba2912]
+link C to V--><g id="link_C_V"><path d="M374,64.74 C374,79.37 374,96.75 374,111.36 " fill="none" id="C-V" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="374,116.35,378,107.35,374,111.35,370,107.35,374,116.35" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="374,59.75,370,68.75,374,64.75,378,68.75,374,59.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f07753de26526949a4c5ce923a3e992e]
+link D to I--><g id="link_D_I"><path d="M207,64.74 C207,79.37 207,96.75 207,111.36 " fill="none" id="D-I" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="207,116.35,211,107.35,207,111.35,203,107.35,207,116.35" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="207,59.75,203,68.75,207,64.75,211,68.75,207,59.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[93ce4f7afcdb7f42ea7b191f31ef7e00]
+reverse link CI to dateFilter--><g id="link_CI_dateFilter"><path d="M621.98,169.3 C575.99,188.96 512.63,216.04 470.32,234.13 " fill="none" id="CI-backto-dateFilter" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="626.39,167.42,616.542,167.2887,621.7943,169.3896,619.6934,174.6419,626.39,167.42" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[73ee0e0826bc6c12a45c63c66eaa1f05]
+reverse link NAS to dateFilter--><g id="link_NAS_dateFilter"><path d="M504.98,173.52 C487.72,190.78 466.06,212.44 449.64,228.86 " fill="none" id="NAS-backto-dateFilter" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="508.2,170.3,499.0076,173.8355,504.6645,173.8355,504.6645,179.4924,508.2,170.3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fd25ca1ea5e54810681f548414a2f65f]
+reverse link V to dateFilter--><g id="link_V_dateFilter"><path d="M388.2,174.85 C396.17,191.88 405.98,212.86 413.47,228.86 " fill="none" id="V-backto-dateFilter" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="386.21,170.6,386.4184,180.4467,388.3369,175.1251,393.6585,177.0436,386.21,170.6" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5be9cdc3eca87ad26074b31d44e37046]
+reverse link I to dateFilter--><g id="link_I_dateFilter"><path d="M262.47,172.23 C298.73,190.36 345.5,213.75 379.56,230.78 " fill="none" id="I-backto-dateFilter" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="258.09,170.05,264.3413,177.6606,262.5593,172.2918,267.9281,170.5098,258.09,170.05" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9a6efcb15eba50e9239fad587fb8d92b]
+reverse link CI to scanning--><g id="link_CI_scanning"><path d="M684.52,175.29 C687.01,192.24 690.05,213 692.38,228.86 " fill="none" id="CI-backto-scanning" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="683.85,170.73,681.2052,180.2171,684.5791,175.6766,689.1197,179.0505,683.85,170.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[129bf08ac36b3d2c6147b83fbf13e860]
+reverse link V to customerAdministration--><g id="link_V_customerAdministration"><path d="M329.56,172.5 C299.11,191.68 259.48,216.65 232.32,233.77 " fill="none" id="V-backto-customerAdministration" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="333.46,170.04,323.7148,171.4652,329.2329,172.7105,327.9876,178.2286,333.46,170.04" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ea191c92d20db76b312196b1d6c98087]
+reverse link I to customerAdministration--><g id="link_I_customerAdministration"><path d="M205.31,175.29 C204.37,192.24 203.23,213 202.36,228.86 " fill="none" id="I-backto-customerAdministration" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="205.56,170.75,201.078,179.5199,205.289,175.7426,209.0663,179.9536,205.56,170.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8ecff785e85efddb5ba310c7b3ed1d8b]
+reverse link NAS to claimsAdministration--><g id="link_NAS_claimsAdministration"><path d="M475.98,172.12 C434.45,191.89 379.69,217.95 343.46,235.19 " fill="none" id="NAS-backto-claimsAdministration" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="480.38,170.02,470.5342,170.2659,475.8631,172.1641,473.9648,177.493,480.38,170.02" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[60288631082e755b8f2dada6e8a60a6f]
+reverse link V to claimsAdministration--><g id="link_V_claimsAdministration"><path d="M355.07,174.4 C344.24,191.51 330.82,212.72 320.6,228.86 " fill="none" id="V-backto-claimsAdministration" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="357.53,170.51,349.3414,175.9824,354.8595,174.7371,356.1048,180.2552,357.53,170.51" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[70691af649478fc45b3c72fd1351c183]
+reverse link I to claimsAdministration--><g id="link_I_claimsAdministration"><path d="M233.49,173.96 C248.94,191.15 268.21,212.58 282.85,228.86 " fill="none" id="I-backto-claimsAdministration" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="230.25,170.36,233.2975,179.7255,233.5948,174.0765,239.2439,174.3738,230.25,170.36" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[373f0cfdcba4216a10e9952648dc76ba]
+reverse link CI to trend--><g id="link_CI_trend"><path d="M642.42,172.94 C618.98,190.69 589.17,213.25 567.07,229.98 " fill="none" id="CI-backto-trend" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="646.12,170.15,636.534,172.4102,642.1389,173.1751,641.3741,178.78,646.12,170.15" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[93b28353c315be8aa3311686c8a9427d]
+reverse link NAS to trend--><g id="link_NAS_trend"><path d="M534.57,175.74 C534.88,192.61 535.26,213.14 535.55,228.86 " fill="none" id="NAS-backto-trend" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="534.48,170.75,530.6608,179.8282,534.58,175.749,538.6592,179.6682,534.48,170.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8f6319d4e964713460af603a626932e1]
+reverse link V to trend--><g id="link_V_trend"><path d="M415.83,172.65 C443.54,191.29 479.29,215.34 504.57,232.35 " fill="none" id="V-backto-trend" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="412.02,170.08,417.2566,178.4213,416.1692,172.87,421.7206,171.7826,412.02,170.08" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ec99e200346060466ed8e9e335f39c5f]
+reverse link I to trend--><g id="link_I_trend"><path d="M279.4,165.92 C359.3,189.61 478.04,225 488,229 C493.47,231.2 499.15,233.8 504.62,236.47 " fill="none" id="I-backto-trend" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="274.69,164.52,282.1698,170.9272,279.4811,165.9502,284.4581,163.2614,274.69,164.52" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[070c02cbc5d1c49c449961e01d1822f7]
+reverse link claimsAdministration to DMS--><g id="link_claimsAdministration_DMS"><path d="M264.1,295.22 C249.23,309.66 232.59,325.81 218.35,339.64 " fill="none" id="claimsAdministration-backto-DMS" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="259.03,290.38,278.25,281.47,268.78,300.43,259.03,290.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[afc2872925fb615608f0622d64fe9a38]
+reverse link claimsAdministration to DMA--><g id="link_claimsAdministration_DMA"><path d="M303.82,301.77 C303.5,314.42 303.15,327.87 302.85,339.64 " fill="none" id="claimsAdministration-backto-DMA" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="296.82,301.75,304.33,281.93,310.81,302.1,296.82,301.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fb726d1a5cbdca573c965e18a7b36131]
+reverse link scanning to HAPB--><g id="link_scanning_HAPB"><path d="M702.26,301.49 C704.43,317.38 706.77,334.57 708.61,348.12 " fill="none" id="scanning-backto-HAPB" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="695.36,302.68,699.6,281.92,709.23,300.79,695.36,302.68" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0b4d5daf3de61acf21cc95b2f91d502c]
+reverse link customerAdministration to CRM--><g id="link_customerAdministration_CRM"><path d="M154.54,293.94 C133.02,311.75 108.08,332.39 89.07,348.12 " fill="none" id="customerAdministration-backto-CRM" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="149.85,288.74,169.72,281.38,158.77,299.53,149.85,288.74" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[88bce4b6dcbd3fd4476b1c34b41b57e4]
+reverse link dateFilter to HAPA--><g id="link_dateFilter_HAPA"><path d="M425.79,301.77 C426,314.42 426.23,327.87 426.43,339.64 " fill="none" id="dateFilter-backto-HAPA" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="418.79,302.05,425.45,281.93,432.79,301.81,418.79,302.05" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b3705f8713f305ef14b85bad7582d299]
+reverse link trend to HFPA--><g id="link_trend_HFPA"><path d="M545,301.49 C548.11,317.38 551.48,334.57 554.13,348.12 " fill="none" id="trend-backto-HFPA" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="538.14,302.88,541.17,281.9,551.88,300.19,538.14,302.88" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6869dd5c1062b0ebffacb114f1c7fb65]
+@startuml construct
+skinparam rectangle<<behavior>> {
+	roundCorner 25
+}
+sprite $bProcess jar:archimate/business-product
+sprite $bActor jar:archimate/business-actor
+sprite $aService jar:archimate/application-service
+sprite $aComponent jar:archimate/application-component
+
+rectangle "达人视角"  as A <<$bActor>><<behavior>> #Business
+rectangle "授权号视角"  as B <<$bActor>><<behavior>> #Business
+rectangle "多号商家视角"  as C <<$bActor>><<behavior>> #Business
+rectangle "单号商家视角"  as D <<$bActor>><<behavior>> #Business
+
+
+
+rectangle "达人页面模版"  as CI <<$bProcess>><<behavior>> #Business
+rectangle "授权号页面模版" as NAS <<$bProcess>><<behavior>> #Business
+rectangle "多号商家页面模版" as V <<$bProcess>><<behavior>> #Business
+rectangle "单号商家页面模版" as I <<$bProcess>><<behavior>> #Business
+
+A <-down-> CI
+B <-down-> NAS
+C <-down-> V
+D <-down-> I
+
+
+rectangle "单选框" as scanning <<$aComponent>><<behavior>> #Application
+rectangle "下拉框" as customerAdministration <<$aComponent>><<behavior>> #Application
+rectangle "数据卡片" as claimsAdministration <<$aComponent>><<behavior>> #Application
+rectangle "趋势图" as trend <<$aComponent>><<behavior>> #Application
+rectangle "时间选择器" as dateFilter <<$aComponent>><<behavior>> #Application
+
+dateFilter -up-> CI
+dateFilter -up-> NAS
+dateFilter -up-> V
+dateFilter -up-> I
+
+scanning -up-> CI
+
+customerAdministration  -up-> V
+customerAdministration  -up-> I
+
+claimsAdministration -up-> NAS
+claimsAdministration -up-> V
+claimsAdministration -up-> I
+
+trend -up-> CI
+trend -up-> NAS
+trend -up-> V
+trend -up-> I
+
+rectangle "交易数据\n概览服务" as DMS <<$aService>> #Application
+rectangle "交易数据\n转化率服务" as DMA <<$aService>> #Application
+rectangle "授权关系服务" as CRM <<$aService>>  #Application
+rectangle "离线数据产\n出延时关系" as HAPA <<$aService>> #Application
+rectangle "数据类型配置服务" as HAPB <<$aService>> #Application
+rectangle "数据趋势服务" as HFPA <<$aService>>  #Application
+
+DMS .up.|> claimsAdministration
+DMA .up.|> claimsAdministration
+
+HAPB .up.|> scanning
+
+
+CRM .up.|> customerAdministration
+HAPA .up.|> dateFilter
+HFPA .up.|> trend
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: CN
+--></g></svg>

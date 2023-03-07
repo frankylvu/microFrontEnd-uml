@@ -18,5 +18,4 @@ if "子应用内是否有懒加载资源？" then
 else
 -->[false] (*)
 
-
 @enduml

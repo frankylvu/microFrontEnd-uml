@@ -1,0 +1,70 @@
+@startuml construct
+skinparam rectangle<<behavior>> {
+	roundCorner 25
+}
+sprite $bProcess jar:archimate/business-product
+sprite $bActor jar:archimate/business-actor
+sprite $aService jar:archimate/application-service
+sprite $aComponent jar:archimate/application-component
+
+rectangle "达人视角"  as A <<$bActor>><<behavior>> #Business
+rectangle "授权号视角"  as B <<$bActor>><<behavior>> #Business
+rectangle "多号商家视角"  as C <<$bActor>><<behavior>> #Business
+rectangle "单号商家视角"  as D <<$bActor>><<behavior>> #Business
+
+
+
+rectangle "达人页面模版"  as CI <<$bProcess>><<behavior>> #Business
+rectangle "授权号页面模版" as NAS <<$bProcess>><<behavior>> #Business
+rectangle "多号商家页面模版" as V <<$bProcess>><<behavior>> #Business
+rectangle "单号商家页面模版" as I <<$bProcess>><<behavior>> #Business
+
+A <-down-> CI
+B <-down-> NAS
+C <-down-> V
+D <-down-> I
+
+
+rectangle "单选框" as scanning <<$aComponent>><<behavior>> #Application
+rectangle "下拉框" as customerAdministration <<$aComponent>><<behavior>> #Application
+rectangle "数据卡片" as claimsAdministration <<$aComponent>><<behavior>> #Application
+rectangle "趋势图" as trend <<$aComponent>><<behavior>> #Application
+rectangle "时间选择器" as dateFilter <<$aComponent>><<behavior>> #Application
+
+dateFilter -up-> CI
+dateFilter -up-> NAS
+dateFilter -up-> V
+dateFilter -up-> I
+
+scanning -up-> CI
+
+customerAdministration  -up-> V
+customerAdministration  -up-> I
+
+claimsAdministration -up-> NAS
+claimsAdministration -up-> V
+claimsAdministration -up-> I
+
+trend -up-> CI
+trend -up-> NAS
+trend -up-> V
+trend -up-> I
+
+rectangle "交易数据\n概览服务" as DMS <<$aService>> #Application
+rectangle "交易数据\n转化率服务" as DMA <<$aService>> #Application
+rectangle "授权关系服务" as CRM <<$aService>>  #Application
+rectangle "离线数据产\n出延时关系" as HAPA <<$aService>> #Application
+rectangle "数据类型配置服务" as HAPB <<$aService>> #Application
+rectangle "数据趋势服务" as HFPA <<$aService>>  #Application
+
+DMS .up.|> claimsAdministration
+DMA .up.|> claimsAdministration
+
+HAPB .up.|> scanning
+
+
+CRM .up.|> customerAdministration
+HAPA .up.|> dateFilter
+HFPA .up.|> trend
+
+@enduml

@@ -1,0 +1,40 @@
+@startuml 微前端加载时序
+!pragma teoz true
+
+' actor 用户 as browser
+actor 开发者 as depBrowser
+participant dilu
+database diluDB
+participant 前端资源服务
+database redis
+
+depBrowser -> dilu: 点击上线按钮
+dilu -> 前端资源服务: 调用接口更新当前主应用\n【host+prefix】配置
+' dilu -> cdn: 将新版子应用信息生成.json文件发布到cdn
+' cdn --> dilu: 发布成功
+' dilu -> kconf: 更新当前的
+activate 前端资源服务
+前端资源服务 -> redis: 将子应用配置注入到当前\n主应用的html后生成一个新\n版本的html随后更新到redis
+activate redis
+redis --> 前端资源服务: 保存成功
+deactivate redis
+deactivate 前端资源服务
+前端资源服务 --> dilu: 上线成功
+dilu -> dilu: 灰度流程结束、留观结束
+dilu -> diluDB: 更新当前的线上版本为本次发布的版本
+dilu --> depBrowser: 上线完成
+
+' browser -> 前端资源服务: 请求主应用html
+' activate 前端资源服务
+' 前端资源服务 -> redis: 根据host+prefix获取对应\nhtml资源、自应用资源信息
+' activate redis
+' redis --> 前端资源服务: 返回对应html资源、mget资源信息
+' deactivate redis
+' group #LightGreen 依赖注入过程
+'   前端资源服务 -> 前端资源服务: 以script标签形式把子应用资源\n内容注入依赖信息到html
+' end
+' 前端资源服务 --> browser: 返回对应的主应用html资源
+
+' deactivate 前端资源服务
+
+@enduml

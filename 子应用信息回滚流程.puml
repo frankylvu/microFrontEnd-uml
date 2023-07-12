@@ -1,0 +1,36 @@
+@startuml 微前端加载时序
+!pragma teoz true
+
+' actor 用户 as browser
+actor 开发者 as depBrowser
+participant cdn
+participant dilu
+database diluDB
+participant 前端资源服务
+database redis
+
+depBrowser -> dilu: 点击回滚按钮
+dilu -> 前端资源服务: 调用接口回滚当前主\n应用html版本
+前端资源服务 -> redis: 回滚到本次上\n线前的html版本
+activate redis
+redis --> 前端资源服务: 回滚成功
+deactivate redis
+前端资源服务 --> dilu: 回滚成功
+dilu -> diluDB: 标记线上主应用配置版本\n为上一个上线单的配置版本
+dilu --> depBrowser: 回滚成功
+
+
+' browser -> 前端资源服务: 请求主应用html
+' activate 前端资源服务
+' 前端资源服务 -> redis: 根据host+prefix获取对应\nhtml资源、自应用资源信息
+' activate redis
+' redis --> 前端资源服务: 返回对应html资源、mget资源信息
+' deactivate redis
+' group #LightGreen 依赖注入过程
+'   前端资源服务 -> 前端资源服务: 以script标签形式把子应用资源\n内容注入依赖信息到html
+' end
+' 前端资源服务 --> browser: 返回对应的主应用html资源
+
+' deactivate 前端资源服务
+
+@enduml

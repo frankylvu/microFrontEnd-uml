@@ -1,0 +1,31 @@
+@startuml 微前端加载时序
+!pragma teoz true
+
+actor 用户 as browser
+participant 前端资源服务
+database redis
+participant dilu
+database diluDB
+
+browser -> 前端资源服务: 请求主应用html
+activate 前端资源服务
+前端资源服务 -> redis: 根据host+prefix获取\n对应的主应用html；\n根据发布时的灰度配置\n获取当前html的版本
+activate redis
+redis --> 前端资源服务: 返回对应html资源
+deactivate redis
+前端资源服务 --> browser: 返回对应的主应用html资源
+deactivate 前端资源服务
+
+group #IndianRed 获取注入的信息失败
+browser -> browser: window.mainAppConfig获取异常
+browser -> dilu: 调用dilu提供的getMainAppConfig接口
+dilu -> diluDB: 获取线上稳定版本的子应用配置
+diluDB --> dilu: 获取成功
+dilu --> browser: 返回配置
+end
+
+browser -> browser: 继续渲染流程
+
+
+
+@enduml
